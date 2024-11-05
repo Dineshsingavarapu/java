@@ -7,11 +7,8 @@ class Main {
         String str = null;
 
         try {
-            c = a / b; // This will throw ArithmeticException
+            c = a / b; 
             System.out.println("Value of c is " + c);
-            // arr[10] = 200; //to avoid ArrayIndexOutOfBoundsException
-            // throw new IOException();
-            // System.out.println("Length of the string is " + str.length()); //to avoid NullPointerException
         } catch (ArithmeticException ae) {
             System.out.println("ArithmeticException caught");
         } catch (ArrayIndexOutOfBoundsException aioobe) {
